@@ -2,19 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <meta name="description" content="Shahab Ahmed — CS Student & Aspiring Software Engineer. Exploring C++, Databases, Python, and Web Development. Based in Lahore & Sialkot, Pakistan.">
     <meta name="keywords" content="Shahab Ahmed, Software Engineer, CS Student, Portfolio, C++, Python, Web Developer, Lahore, Pakistan">
     <meta name="author" content="Shahab Ahmed">
+    <meta name="theme-color" content="#0a0a0f">
+    <meta name="color-scheme" content="dark">
     <title>Shahab Ahmed — CS Student & Software Engineer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="preload" href="profile1.jpg" as="image" type="image/jpeg" fetchpriority="high">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <a href="#hero" class="skip-link">Skip to content</a>
+    <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+
     <!-- Animated Background Canvas -->
-    <canvas id="particles-canvas"></canvas>
+    <canvas id="particles-canvas" aria-hidden="true"></canvas>
 
     <!-- Custom Cursor -->
     <div class="cursor-dot" id="cursor-dot"></div>
@@ -31,12 +37,13 @@
             <a href="#projects" class="nav-link" data-text="Projects">Projects</a>
             <a href="#contact" class="nav-link" data-text="Contact">Contact</a>
         </div>
-        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-links">
             <span></span>
             <span></span>
             <span></span>
         </button>
     </nav>
+    <div class="nav-overlay" id="nav-overlay" aria-hidden="true"></div>
 
     <!-- Hero Section -->
     <section class="hero" id="hero">
@@ -100,7 +107,7 @@
                     <div class="profile-ring"></div>
                     <div class="profile-ring ring-2"></div>
                     <div class="profile-image-wrapper">
-                        <img src="profile1.jpg" alt="Shahab Ahmed" class="profile-image" id="profile-image">
+                        <img src="profile1.jpg" alt="Shahab Ahmed" class="profile-image" id="profile-image" width="340" height="340" decoding="async" fetchpriority="high">
                     </div>
                     <div class="floating-badge badge-1">
                         <span>🎓</span>
@@ -460,6 +467,10 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+    </button>
+
+    <script src="script.js" defer></script>
 </body>
 </html>
