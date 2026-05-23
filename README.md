@@ -14,7 +14,7 @@
 
 **CS Student · Aspiring Software Engineer · Problem Solver**
 
-[![Live Site](https://img.shields.io/badge/🌐_Live_Portfolio-6366f1?style=for-the-badge&logo=github&logoColor=white)](https://shahabahmed01.github.io/myportfolio/)
+[![Live Site](https://img.shields.io/badge/🌐_Live_Portfolio-6366f1?style=for-the-badge&logo=github&logoColor=white)](https://shahabahmed01.github.io/)
 [![GitHub](https://img.shields.io/badge/GitHub-ShahabAhmed01-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ShahabAhmed01)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shahabahmed01/)
 
@@ -99,7 +99,7 @@ C++ · Python · SQL · OOP · Data Structures & Algorithms
 ## 📂 Project Structure
 
 ```
-myportfolio/
+ShahabAhmed01.github.io/
 ├── index.html      # Main page & sections
 ├── style.css       # Design system & responsive styles
 ├── script.js       # Animations & interactions
@@ -115,8 +115,8 @@ No build step required — pure static files.
 
 ```bash
 # Clone the repository
-git clone https://github.com/ShahabAhmed01/myportfolio.git
-cd myportfolio
+git clone https://github.com/ShahabAhmed01/ShahabAhmed01.github.io.git
+cd ShahabAhmed01.github.io
 
 # Open in your browser
 # Windows
@@ -145,7 +145,7 @@ npx serve .
 3. Select branch **`master`** and folder **`/ (root)`**  
 4. Your site will be live at:
 
-   **`https://shahabahmed01.github.io/myportfolio/`**
+   **`https://shahabahmed01.github.io/`**
 
 ---
 
@@ -153,7 +153,7 @@ npx serve .
 
 | Platform | Link |
 |----------|------|
-| 🌐 **Portfolio** | [shahabahmed01.github.io/myportfolio](https://shahabahmed01.github.io/myportfolio/) |
+| 🌐 **Portfolio** | [shahabahmed01.github.io](https://shahabahmed01.github.io/) |
 | 💼 **LinkedIn** | [linkedin.com/in/shahabahmed01](https://www.linkedin.com/in/shahabahmed01/) |
 | 🐙 **GitHub** | [@ShahabAhmed01](https://github.com/ShahabAhmed01) |
 | ✉️ **Email** | [paranoidhere01@gmail.com](mailto:paranoidhere01@gmail.com) |
