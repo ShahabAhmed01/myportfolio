@@ -6,7 +6,7 @@
 
 <br>
 
-<img src="profile-photo.jpg" alt="Shahab Ahmed" width="140" style="border-radius: 50%; border: 3px solid #6366f1;">
+<img src="profile-photo.jpg?v=2" alt="Shahab Ahmed" width="140" style="border-radius: 50%; border: 3px solid #6366f1;">
 
 <br>
 

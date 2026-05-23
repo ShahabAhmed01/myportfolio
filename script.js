@@ -3,6 +3,14 @@
    ============================================ */
 
 document.addEventListener('DOMContentLoaded', () => {
+    if (typeof profilePhotoUrl === 'function') {
+        const photoUrl = profilePhotoUrl();
+        const profileImg = document.getElementById('profile-image');
+        const preloadImg = document.querySelector('link[rel="preload"][as="image"]');
+        if (profileImg) profileImg.src = photoUrl;
+        if (preloadImg) preloadImg.href = photoUrl;
+    }
+
     const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     const isCoarsePointer = window.matchMedia('(hover: none), (pointer: coarse)').matches;
     const isMobile = window.innerWidth <= 768 || isCoarsePointer;
