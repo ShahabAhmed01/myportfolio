@@ -53,6 +53,7 @@ A **modern, responsive portfolio website** showcasing my journey as a Computer S
 
 | Feature | Description |
 |---------|-------------|
+| 🔄 **Dynamic Content** | Live GitHub API integration for auto-fetching projects and stats |
 | 🎨 **Glassmorphism UI** | Dark theme with indigo–violet–cyan gradients |
 | 📱 **Fully Responsive** | Optimized for phones, tablets, desktops & landscape |
 | ⚡ **Performance-First** | Lazy loading, reduced motion support, lightweight canvas |
@@ -72,7 +73,7 @@ Inter · JetBrains Mono · CSS Grid & Flexbox · CSS Variables
 
 **Concepts & Tools**
 ```
-Responsive Design · Intersection Observer · Canvas API
+GitHub REST API · Responsive Design · Intersection Observer · Canvas API
 Git & GitHub · GitHub Pages
 ```
 
@@ -84,6 +85,10 @@ C++ · Python · SQL · OOP · Data Structures & Algorithms
 ---
 
 ## 🚀 Featured Projects
+
+My projects are now **fetched dynamically** from my GitHub profile using the GitHub REST API! The site automatically categorizes the languages used, calculates live stars/forks, and presents them in animated glassmorphism cards.
+
+*Some of my recent highlighted repositories include:*
 
 | Project | Stack | Link |
 |---------|-------|------|
