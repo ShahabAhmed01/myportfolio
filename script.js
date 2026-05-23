@@ -111,7 +111,7 @@ function initNav(){
 }
 
 function initParticles(){
-  const canvas=document.getElementById('particles');
+  const canvas=document.getElementById('particles-canvas');
   if(!canvas)return;
   const ctx=canvas.getContext('2d');
   const COUNT=window.matchMedia('(prefers-reduced-motion:reduce)').matches?0:55;

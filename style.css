@@ -505,6 +505,10 @@ img {
     display: inline-block;
     animation: waveLetter 2s ease-in-out infinite;
     animation-delay: calc(var(--i) * 0.05s);
+    background: inherit;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 @keyframes waveLetter {
