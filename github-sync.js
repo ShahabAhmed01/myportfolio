@@ -63,12 +63,10 @@ document.addEventListener("DOMContentLoaded", async () => {
         if (projectsContainer) {
             projectsContainer.innerHTML = '';
             
-            // Filter and sort to match pinnedRepos order
-            const filteredRepos = [];
-            config.pinnedRepos.forEach(repoName => {
-                const repo = reposData.find(r => r.name === repoName);
-                if (repo) filteredRepos.push(repo);
-            });
+            // Display all public non-fork repos, sorted by stars then recent updates
+            const filteredRepos = reposData
+                .filter(repo => !repo.fork)
+                .sort((a, b) => b.stargazers_count - a.stargazers_count || new Date(b.updated_at) - new Date(a.updated_at));
 
             filteredRepos.forEach((repo, index) => {
                 const card = document.createElement('div');
