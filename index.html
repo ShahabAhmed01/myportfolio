@@ -83,18 +83,8 @@
                 </p>
                 <div class="hero-stats reveal-up">
                     <div class="stat">
-                        <span class="stat-number" data-target="7" data-stat="repos">0</span>
+                        <span class="stat-number" id="stat-repos" data-target="0">0</span>
                         <span class="stat-label">Public Repos</span>
-                    </div>
-                    <div class="stat-divider"></div>
-                    <div class="stat">
-                        <span class="stat-number" data-target="4" data-stat="technologies">0</span><span class="stat-plus">+</span>
-                        <span class="stat-label">Technologies</span>
-                    </div>
-                    <div class="stat-divider"></div>
-                    <div class="stat">
-                        <span class="stat-number" data-target="4" data-stat="semesters">0</span>
-                        <span class="stat-label">Semesters</span>
                     </div>
                 </div>
                 <div class="hero-actions reveal-up">
@@ -207,8 +197,11 @@
                 <h2 class="section-title">Featured Work</h2>
                 <p class="section-subtitle">Explore my latest projects — from OOP simulations in C++ to Python tools and beyond.</p>
             </div>
-            <div class="projects-grid" data-projects-container>
-                <!-- Projects are injected here automatically from GitHub API + config.js -->
+            <div id="projects-grid" class="projects-grid">
+                <div class="projects-loading">
+                    <span class="loading-spinner"></span>
+                    Loading projects from GitHub…
+                </div>
             </div>
             <div class="projects-cta reveal-up">
                 <a href="https://github.com/ShahabAhmed01" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
@@ -280,7 +273,6 @@
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
     </button>
 
-    <script src="config.js"></script>
     <script src="github-sync.js"></script>
     <script src="script.js" defer></script>
 </body>

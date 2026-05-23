@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>README Preview - myportfolio</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --border: #30363d;
+      --text: #c9d1d9;
+      --muted: #8b949e;
+      --link: #58a6ff;
+      --accent: #6366f1;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    .banner {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: rgba(13, 17, 23, 0.97);
+      border-bottom: 1px solid var(--border);
+      padding: 14px 24px;
+    }
+    .banner strong { color: var(--link); }
+    .banner p { margin: 4px 0 0; font-size: 0.85rem; color: var(--muted); }
+    .wrap { max-width: 920px; margin: 0 auto; padding: 28px 20px 64px; }
+    .readme {
+      padding: 32px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: var(--bg);
+    }
+    .center { text-align: center; }
+    h1, h2, h3 { color: #f0f6fc; font-weight: 600; margin-top: 1.5em; margin-bottom: 0.75em; }
+    h1 { font-size: 2em; border-bottom: 1px solid var(--border); padding-bottom: 0.3em; }
+    h2 { font-size: 1.5em; border-bottom: 1px solid var(--border); padding-bottom: 0.25em; }
+    h3 { font-size: 1.15em; }
+    .hero-title { font-size: 2.2em; border: none; margin-top: 0.5rem; }
+    .tagline { color: var(--muted); font-style: italic; font-size: 1.1rem; }
+    .subtitle { color: var(--muted); font-weight: 500; margin: 0.5rem 0 1.25rem; }
+    a { color: var(--link); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    img.avatar {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      border: 3px solid var(--accent);
+      object-fit: cover;
+      margin: 1rem 0;
+    }
+    .badges { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin: 1rem 0; }
+    .badges img { height: 28px; }
+    .badges-lg img { height: 32px; }
+    blockquote {
+      margin: 1rem 0;
+      padding: 0 1rem;
+      border-left: 4px solid var(--accent);
+      color: var(--muted);
+    }
+    table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.95rem; }
+    th, td { border: 1px solid var(--border); padding: 10px 14px; text-align: left; }
+    th { background: #161b22; font-weight: 600; }
+    tr:nth-child(even) td { background: rgba(255,255,255,0.02); }
+    pre, code {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+      font-size: 0.9em;
+    }
+    pre {
+      background: #161b22;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 16px;
+      overflow-x: auto;
+      line-height: 1.45;
+    }
+    code { background: rgba(110,118,129,0.2); padding: 0.15em 0.4em; border-radius: 4px; }
+    pre code { background: none; padding: 0; }
+    hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+    ul, ol { padding-left: 1.5rem; }
+    li { margin: 0.35rem 0; }
+    .footer-note { color: var(--muted); font-size: 0.85rem; }
+    .location { color: var(--muted); font-style: italic; }
+  </style>
+</head>
+<body>
+  <div class="banner">
+    <strong>Preview:</strong> README for <strong>github.com/ShahabAhmed01/myportfolio</strong>
+    <p>Offline preview — works without internet. Badge images load if you're online.</p>
+  </div>
+
+  <div class="wrap">
+    <article class="readme">
+
+      <div class="center">
+        <h1 class="hero-title">&#10022; Personal Portfolio</h1>
+        <p class="tagline"><em>Clean. Fast. Built to impress.</em></p>
+
+        <img class="avatar" src="profile-photo.jpg" alt="Shahab Ahmed" width="140" height="140">
+
+        <h1 class="hero-title" style="font-size:1.75rem;border:none;">Shahab Ahmed</h1>
+        <p class="subtitle"><strong>CS Student &middot; Aspiring Software Engineer &middot; Problem Solver</strong></p>
+
+        <div class="badges badges-lg">
+          <a href="https://shahabahmed01.github.io/myportfolio/"><img src="https://img.shields.io/badge/Live_Portfolio-6366f1?style=for-the-badge&logo=github&logoColor=white" alt="Live Portfolio"></a>
+          <a href="https://github.com/ShahabAhmed01"><img src="https://img.shields.io/badge/GitHub-ShahabAhmed01-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+          <a href="https://www.linkedin.com/in/shahabahmed01/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+        </div>
+
+        <div class="badges">
+          <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5">
+          <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3">
+          <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
+          <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++">
+          <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+        </div>
+
+        <p class="location"><em>Lahore &amp; Sialkot, Pakistan &middot; Open to internships &amp; collaborations</em></p>
+      </div>
+
+      <hr>
+
+      <h2>&#128075; About</h2>
+      <p>A <strong>modern, responsive portfolio website</strong> showcasing my journey as a Computer Science student at <strong>University of Management and Technology (UMT)</strong>. From C++ console apps to web experiences — this site is my digital home base.</p>
+      <blockquote><p><em>"Building real-world projects with strong fundamentals, clean code, and curiosity."</em></p></blockquote>
+      <table>
+        <tr><th></th><th></th></tr>
+        <tr><td>&#127891; <strong>Education</strong></td><td>BSc Computer Science — UMT (4th Semester)</td></tr>
+        <tr><td>&#128187; <strong>Focus</strong></td><td>Software Engineering &middot; DSA &middot; Databases &middot; Web Dev</td></tr>
+        <tr><td>&#128205; <strong>Location</strong></td><td>Lahore &amp; Sialkot, Pakistan</td></tr>
+        <tr><td>&#128994; <strong>Status</strong></td><td>Available for opportunities</td></tr>
+      </table>
+
+      <hr>
+
+      <h2>&#10024; Highlights</h2>
+      <table>
+        <thead><tr><th>Feature</th><th>Description</th></tr></thead>
+        <tbody>
+          <tr><td>&#127912; <strong>Glassmorphism UI</strong></td><td>Dark theme with indigo–violet–cyan gradients</td></tr>
+          <tr><td>&#128241; <strong>Fully Responsive</strong></td><td>Optimized for phones, tablets, desktops &amp; landscape</td></tr>
+          <tr><td>&#9889; <strong>Performance-First</strong></td><td>Lazy loading, reduced motion support, lightweight canvas</td></tr>
+          <tr><td>&#127917; <strong>Interactive</strong></td><td>Particle background, typing effect, scroll reveals &amp; counters</td></tr>
+          <tr><td>&#9855; <strong>Accessible</strong></td><td>Skip links, ARIA labels, keyboard focus states</td></tr>
+          <tr><td>&#128433; <strong>Desktop Polish</strong></td><td>Custom cursor, card glow &amp; profile parallax</td></tr>
+        </tbody>
+      </table>
+
+      <hr>
+
+      <h2>&#128736; Tech Stack</h2>
+      <p><strong>Frontend</strong></p>
+      <pre><code>HTML5 · CSS3 · Vanilla JavaScript
+Inter · JetBrains Mono · CSS Grid &amp; Flexbox · CSS Variables</code></pre>
+      <p><strong>Concepts &amp; Tools</strong></p>
+      <pre><code>Responsive Design · Intersection Observer · Canvas API
+Git &amp; GitHub · GitHub Pages</code></pre>
+      <p><strong>Languages I Build With</strong></p>
+      <pre><code>C++ · Python · SQL · OOP · Data Structures &amp; Algorithms</code></pre>
+
+      <hr>
+
+      <h2>&#128640; Featured Projects</h2>
+      <table>
+        <thead><tr><th>Project</th><th>Stack</th><th>Link</th></tr></thead>
+        <tbody>
+          <tr><td>&#127975; <strong>Simple ATM Simulation</strong></td><td>C++, OOP, File I/O</td><td><a href="https://github.com/ShahabAhmed01/Simple-ATM-Simulation">View Repo</a></td></tr>
+          <tr><td>&#9201; <strong>AuraTimer</strong></td><td>Python, CLI</td><td><a href="https://github.com/ShahabAhmed01/AuraTimer">View Repo</a></td></tr>
+          <tr><td>&#9989; <strong>To-Do List App</strong></td><td>C++, Console</td><td><a href="https://github.com/ShahabAhmed01/To-Do-List-Application">View Repo</a></td></tr>
+          <tr><td>&#127919; <strong>Number Guessing Game</strong></td><td>C++, ANSI Colors</td><td><a href="https://github.com/ShahabAhmed01/Number-Guessing-Game">View Repo</a></td></tr>
+          <tr><td>&#127922; <strong>Dice Rolling Game</strong></td><td>C++, Console</td><td><a href="https://github.com/ShahabAhmed01/Dice-Rolling-Game">View Repo</a></td></tr>
+          <tr><td>&#128218; <strong>UMT Coursework</strong></td><td>C++, DSA, Academic</td><td><a href="https://github.com/ShahabAhmed01/UMT">View Repo</a></td></tr>
+        </tbody>
+      </table>
+
+      <hr>
+
+      <h2>&#128193; Project Structure</h2>
+      <pre><code>myportfolio/
+├── index.html      # Main page &amp; sections
+├── style.css       # Design system &amp; responsive styles
+├── script.js       # Animations &amp; interactions
+├── profile-photo.jpg    # Profile image
+└── README.md       # You are here</code></pre>
+
+      <hr>
+
+      <h2>&#128421; Run Locally</h2>
+      <p>No build step required — pure static files.</p>
+      <pre><code># Clone the repository
+git clone https://github.com/ShahabAhmed01/myportfolio.git
+cd myportfolio
+
+# Open in your browser (Windows)
+start index.html</code></pre>
+
+      <hr>
+
+      <h2>&#127760; Deploy with GitHub Pages</h2>
+      <ol>
+        <li>Go to <strong>Settings &rarr; Pages</strong> in this repository</li>
+        <li>Set <strong>Source</strong> to <code>Deploy from a branch</code></li>
+        <li>Select branch <strong><code>master</code></strong> and folder <strong><code>/ (root)</code></strong></li>
+        <li>Your site will be live at: <strong><code>https://shahabahmed01.github.io/myportfolio/</code></strong></li>
+      </ol>
+
+      <hr>
+
+      <h2>&#128236; Let's Connect</h2>
+      <table>
+        <thead><tr><th>Platform</th><th>Link</th></tr></thead>
+        <tbody>
+          <tr><td>&#127760; <strong>Portfolio</strong></td><td><a href="https://shahabahmed01.github.io/myportfolio/">shahabahmed01.github.io/myportfolio</a></td></tr>
+          <tr><td>&#128188; <strong>LinkedIn</strong></td><td><a href="https://www.linkedin.com/in/shahabahmed01/">linkedin.com/in/shahabahmed01</a></td></tr>
+          <tr><td>&#127873; <strong>GitHub</strong></td><td><a href="https://github.com/ShahabAhmed01">@ShahabAhmed01</a></td></tr>
+          <tr><td>&#9993; <strong>Email</strong></td><td><a href="mailto:paranoidhere01@gmail.com">paranoidhere01@gmail.com</a></td></tr>
+        </tbody>
+      </table>
+
+      <hr>
+
+      <div class="center">
+        <p><strong>Designed &amp; built with passion by <a href="https://github.com/ShahabAhmed01">Shahab Ahmed</a></strong></p>
+        <p class="footer-note">&copy; 2025 &middot; Star &#11088; this repo if you found it helpful!</p>
+        <pre><code>// while(alive) { code(); learn(); repeat(); }</code></pre>
+      </div>
+
+    </article>
+  </div>
+</body>
+</html>
