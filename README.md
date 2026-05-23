@@ -6,7 +6,7 @@
 
 <br>
 
-<img src="profile1.jpg" alt="Shahab Ahmed" width="140" style="border-radius: 50%; border: 3px solid #6366f1;">
+<img src="profile-photo.jpg" alt="Shahab Ahmed" width="140" style="border-radius: 50%; border: 3px solid #6366f1;">
 
 <br>
 
@@ -103,7 +103,7 @@ myportfolio/
 ├── index.html      # Main page & sections
 ├── style.css       # Design system & responsive styles
 ├── script.js       # Animations & interactions
-├── profile1.jpg    # Profile image
+├── profile-photo.jpg    # Profile image
 └── README.md       # You are here
 ```
 
