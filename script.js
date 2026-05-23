@@ -82,7 +82,7 @@ function initTyping(){
 }
 
 function observeReveal(){
-  const items=document.querySelectorAll('.reveal-item:not(.revealed)');
+  const items=document.querySelectorAll('.reveal-item:not(.revealed), .reveal-up:not(.revealed), .reveal-left:not(.revealed), .reveal-right:not(.revealed), .reveal-down:not(.revealed)');
   if(!items.length)return;
   const obs=new IntersectionObserver(entries=>{
     entries.forEach(e=>{
