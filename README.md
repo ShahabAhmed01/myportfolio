@@ -92,7 +92,7 @@ My projects are now **fetched dynamically** from my GitHub profile using the Git
 
 | Project | Stack | Link |
 |---------|-------|------|
-| 🤖 **Zynex AI** | Python, Autonomous AI | [View Repo](https://github.com/ShahabAhmed01/zynex-ai) |
+| 🤖 **Zynex** | Python, Research Automation | [View Repo](https://github.com/ShahabAhmed01/zynex-ai) |
 | 🏧 **Simple ATM Simulation** | C++, OOP, File I/O | [View Repo](https://github.com/ShahabAhmed01/Simple-ATM-Simulation) |
 | ⏱️ **AuraTimer** | Python, CLI | [View Repo](https://github.com/ShahabAhmed01/AuraTimer) |
 | ✅ **To-Do List App** | C++, Console | [View Repo](https://github.com/ShahabAhmed01/To-Do-List-Application) |
